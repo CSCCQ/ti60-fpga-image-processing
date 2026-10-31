@@ -78,23 +78,23 @@
     },
     {
       "path": "docs/verification/README.md",
-      "bytes": 910,
-      "sha256": "2db03d000a44890d93a4caab93bdee3fa62082a4e0d1f6c592972c4a6ab1d186"
+      "bytes": 1082,
+      "sha256": "550a75d1e1eceaa0e08616ff8855c24cd67208a65526be522a65a33208cfd565"
     },
     {
       "path": "docs/技术说明.md",
-      "bytes": 3089,
-      "sha256": "f3173ac104b69f806b0432f781e3225d45e25846989c87b092e7ee2a14ca850e"
+      "bytes": 3997,
+      "sha256": "349a2d3d7713e80113066e653ab6fb92a3286aa0fea3214568d4d317d04ba478"
     },
     {
       "path": "docs/第三方组件.md",
-      "bytes": 789,
-      "sha256": "21c13350621a863c8a808dc5a3cf85032a77c0a5525a361fca196c1791690f46"
+      "bytes": 747,
+      "sha256": "5b721cc36057bcd5b8c7f94964f8bfba39a9202a6a4faf16b774c4f9c8534078"
     },
     {
       "path": "docs/部署说明.md",
-      "bytes": 3074,
-      "sha256": "315402309fa1897dc87a168848696b63a7605b0194e942f2ae915ec2d597ea6a"
+      "bytes": 3290,
+      "sha256": "04e611c03f3ef997f77dacf3848b3be23eed51063b10c8329c36bdaa785d6d70"
     },
     {
       "path": "embedded_sw/SapphireSoc32/bsp/efinix/EfxSapphireSoc/app/fatfs/00history.txt",
@@ -4178,8 +4178,8 @@
     },
     {
       "path": "ml/digits/README.md",
-      "bytes": 1721,
-      "sha256": "4acec8b8ed2924d1cc4b7e401759ad1a1a33df42b119780cb7faaaa3f008b5b9"
+      "bytes": 2115,
+      "sha256": "8a00299b6d8f7402b488b8422a38f9b07b0941b11f2030d941d551afaeb8bd3c"
     },
     {
       "path": "ml/digits/reference/page-1.png",
@@ -4218,8 +4218,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3667,
-      "sha256": "a1d520533b7b6acc0548a6a9581007f9d59fa7f2a4ef1198272a29186b29743e"
+      "bytes": 3528,
+      "sha256": "eb49cf563137659b59538114314259eb82e998f14dce1f1f736a7078b93beef3"
     },
     {
       "path": "release/boot/application.bin",
