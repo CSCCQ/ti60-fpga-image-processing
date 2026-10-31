@@ -1,0 +1,13 @@
+{
+  "firmware_downloaded": false,
+  "passed": true,
+  "cpu_resumed": true,
+  "boot_sha256": "b841567064dce5c6ce2ed337680c9051678a2bfa6493a486b8441d8fb91ffee1",
+  "log": "C:\\Users\\admin\\Desktop\\gray\\Ti60F225_SC1336_HDMI_Display\\sim\\edge_noise_guard_v3\\board\\cold_runtime.log",
+  "firmware_image_sha256": "cea75ab779124da01117ab803c09a84abd9bfa009b372ae3441a16318bc3ea83",
+  "crc32": 3177583843,
+  "verified": "2026-10-24T12:02:38.3738646+08:00",
+  "bit_sha256": "1f8cb74e7aab6103797cac6f5761bb08ba4dbf11d8c3b548db8d5cac7681bf87",
+  "elf_sha256": "333b82a8203cd90b33823e92b234545ca78bfebd75c8aeb1a75e5383c36e0f80",
+  "application_bytes": 1197076
+}

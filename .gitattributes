@@ -1,0 +1,11 @@
+# Preserve accepted source/binary fingerprints across Windows and GitHub checkouts.
+* -text
+*.png binary
+*.pdf binary
+*.docx binary
+*.elf binary
+*.bin binary
+*.a binary
+*.tflite binary
+*.keras binary
+*.npz binary

@@ -1,0 +1,33 @@
+{
+  "flash_bytes": 8388608,
+  "fpga_offset": 0,
+  "application_offset": 4194304,
+  "header_bytes": 64,
+  "application_bytes": 1197076,
+  "entry": 4096,
+  "crc32": 3177583843,
+  "elf_sha256": "333b82a8203cd90b33823e92b234545ca78bfebd75c8aeb1a75e5383c36e0f80",
+  "application_sha256": "38bb4399465812bddb81c739a162e460baf509675de782c2c232831e349f0213",
+  "image_sha256": "cea75ab779124da01117ab803c09a84abd9bfa009b372ae3441a16318bc3ea83",
+  "boot_bytes": 1324,
+  "boot_sha256": "b841567064dce5c6ce2ed337680c9051678a2bfa6493a486b8441d8fb91ffee1",
+  "rom_installed": true,
+  "banks": [
+    {
+      "file": "EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol0.bin",
+      "sha256": "677688aa5d7b40a86ead5bdbc90f0467b03f72501ba87d5c8dc52ea17a96a1ae"
+    },
+    {
+      "file": "EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol1.bin",
+      "sha256": "d8345f9b8fb4e2f8316399896eb9c0cfcc514916082dd993c614ed8abd6ef931"
+    },
+    {
+      "file": "EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol2.bin",
+      "sha256": "c46a8387fe4579af98ff9b22b36b8ad1209d3bb053b9f7307611a47aa4f77875"
+    },
+    {
+      "file": "EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol3.bin",
+      "sha256": "4671b76059d917d75832f233668fae22f310149c0822872e0d38a7edf9e6e49e"
+    }
+  ]
+}

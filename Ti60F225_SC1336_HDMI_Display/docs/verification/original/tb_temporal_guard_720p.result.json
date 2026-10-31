@@ -1,0 +1,10 @@
+{
+  "test": "tb_temporal_guard_720p",
+  "passed": true,
+  "negative_control": false,
+  "seconds": 47.16,
+  "sources": {
+    "src/isp/Edge_Temporal_Guard.v": "db94fe10e4124704d7fe77e217b26c84e8f9106663839bd78074d6fc9c81f110",
+    "sim/edge_noise_guard_v2/tb_temporal_guard.v": "d907b0ac6e9e640204f020a5f08cf9d318efdd54f5fb665acd0a25ec01c0fbe2"
+  }
+}

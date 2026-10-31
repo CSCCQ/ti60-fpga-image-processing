@@ -1,0 +1,29 @@
+{
+  "test": "tb_held_modes",
+  "passed": true,
+  "negative_control": false,
+  "seconds": 232.84,
+  "sources": {
+    "src/isp/Canny_Edge.v": "a792c3352c90e843b6e07d590b979a476d3dbe653c1fa1cc9c91f8e0a26ae5b1",
+    "src/isp/Center_Split.v": "8b9a5fc7f119113c6fded1ae59ecee697f071db2d01bc2ec4682ad364c7bb049",
+    "src/isp/Display_Line_Delay.v": "267684dd377c2583619e01cd6812e60669cff3296aaf2acfe09bd4a2a8840dfc",
+    "src/isp/Edge_Overlay.v": "c108c2c3397622d6d6077f7cf24e9dcc6fd2613c1b3a811ac0890be66d00fd75",
+    "src/isp/Edge_Temporal_Guard.v": "db94fe10e4124704d7fe77e217b26c84e8f9106663839bd78074d6fc9c81f110",
+    "src/isp/FrameBoundCrop.v": "8ccc09fb112980cf30885a7547ae17c5b98c04cd1462ccf85c1220be49e83899",
+    "src/isp/Key_Ctrl.v": "86a1dbffbac6430439a53f16137e0c521ce124f1a959a2868e490c79755ea979",
+    "src/isp/Line_Shift_RAM_8Bit.v": "ed19093fbae9a6b6caf32f16c5ab5ff892421ca5c07aa266fc9ceecd1d0d6e5a",
+    "src/isp/Matrix_Generate_3X3.v": "451466651569ca9a45282f96d18be2d3c47b621efc8675e043d9a5853aec8e84",
+    "src/isp/Mode_Label_Overlay.v": "3e1662f1c57d495f0a1a9047e5ea0422afb700dbf766987cc8a120efb3e7233a",
+    "src/isp/Shape_Annotate.v": "ae1821808026b08c22145566075d0576ed9e7bb0c6703978475d3d152c8b69ba",
+    "src/isp/Shape_Classify.v": "2db4c7507b6f9d429d51f6e5aa10aa97f2dc7504a8b13169b9ae8b79deb37f72",
+    "src/isp/Shape_Corner_Count.v": "1650d1f1baf2eed7ee7e633449d0404fea259cd8f821d82a5fee6785c12fda5a",
+    "src/isp/Video_Frame_Phase.v": "575ac61f835a7bba18e73900f5b085b6bff3e4f748ea911aac1de11503e54f52",
+    "src/isp/VIP_Matrix_Generate_3X3_8Bit.v": "06d1f2c748270a59ab6f42915f964ccd9712eebaa17ae57e065958d472156588",
+    "src/isp/VIP_RAW8_RGB888.v": "c763e7d01fb9d6ff54d8ffda57efd6e595d2b8f49d90148a4206a08d292b7a85",
+    "src/vision/Digit_Box_Overlay.v": "34c6ffea6dd20ee856252f3898e8791d974e5780badce3b4b459120301f285a7",
+    "sim/edge_noise_guard_v3/tb_held_modes.v": "275f668732fc231b0d6e8c518fc11b5d83a58fb9bddf86c3e60c50c2a82e00d9",
+    "sim/digits/tb_four_modes.v": "e177555c50cca521b85d1074da69a6dc7181721ecd01769730d055ec21f589c8",
+    "sim/edge_noise_guard_v3/run_preservation.py": "564f2bf603d76bacc4cec0258b9e1d39abb9b2aa586abafee813010ffcc5bb2c",
+    "example_top.v": "79edf99394f76ed6ca3042e1ccc80edd76a54745cb7fe14f72744df0adf3256d"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "part": "Configuration",
+  "verify_method": "hostx1",
+  "firmware_sha256": "333b82a8203cd90b33823e92b234545ca78bfebd75c8aeb1a75e5383c36e0f80",
+  "finished": "2026-10-24T11:58:37.4162865+08:00",
+  "power_cycle_verified": true,
+  "bytes": 1076075,
+  "address": 0,
+  "image_sha256": "02DA7044C56E2CAA09798D89D4E96EBFA8B94603786BBD0FA9F2C911C6947147",
+  "bit_sha256": "1f8cb74e7aab6103797cac6f5761bb08ba4dbf11d8c3b548db8d5cac7681bf87",
+  "image": "C:\\Users\\admin\\Desktop\\gray\\Ti60F225_SC1336_HDMI_Display\\outflow_digits_noise_guard_v3\\Ti60_Demo.hex",
+  "original_flash_sha256": "ad6f9a60f1d22c9afe5cf3935e670540780d5bbc946c8cf5e08d0031ef638704",
+  "cold_runtime_report": "sim/edge_noise_guard_v3/board/cold_runtime.result.json"
+}

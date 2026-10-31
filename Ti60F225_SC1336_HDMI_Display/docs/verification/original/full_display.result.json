@@ -1,0 +1,78 @@
+{
+  "passed": true,
+  "scope": "All seven full 1280x720 modes and all seven consecutive transitions; 16 full frames including RGB lead-in for two grayscale-start shards; production pixel pipeline and independent RGB/median/Gaussian references",
+  "frames": 16,
+  "pixels": 14745600,
+  "mode_cycle": [
+    0,
+    5,
+    4,
+    6,
+    1,
+    2,
+    3
+  ],
+  "transitions": [
+    [
+      0,
+      5
+    ],
+    [
+      5,
+      4
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      6,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      0
+    ]
+  ],
+  "reports": [
+    {
+      "path": "sim/edge_noise_guard_v3/pair_0/tb_720p_pair_0.result.json",
+      "sha256": "8cc93b0131d7e866de01a21cc47bc7a2d2cc08b6a4dd0b9bbfea00baacade335"
+    },
+    {
+      "path": "sim/edge_noise_guard_v3/pair_1/tb_720p_pair_1.result.json",
+      "sha256": "c3a2ec08b4e7316f424fbfeaa792b9b3cf4b518b310e8a6caef7c460e2491c12"
+    },
+    {
+      "path": "sim/edge_noise_guard_v3/pair_2/tb_720p_pair_2.result.json",
+      "sha256": "eedac36ec417fc7f59f16580a6c1452d9c7c08297dcc2622225f9e634e8ecea9"
+    },
+    {
+      "path": "sim/edge_noise_guard_v3/pair_3/tb_720p_pair_3.result.json",
+      "sha256": "db27334efdc80836dac93ba7bfba6a3f1858c35ca17813d93ccb14005ff4e3e2"
+    },
+    {
+      "path": "sim/edge_noise_guard_v3/pair_4/tb_720p_pair_4.result.json",
+      "sha256": "5ea6f2dcef00376f2934cde51afc99df0a5b75c85f41a33b37d39c8e4360fd20"
+    },
+    {
+      "path": "sim/edge_noise_guard_v3/pair_5/tb_720p_pair_5.result.json",
+      "sha256": "b2407de6360f2ee12c17084b73a10c935a4e67feff60eeb60904c5275165c6fe"
+    },
+    {
+      "path": "sim/edge_noise_guard_v3/pair_6/tb_720p_pair_6.result.json",
+      "sha256": "c6d3cfef1567143f62006d14b4de14efaf532feb95a3607155cb739d5cf01066"
+    }
+  ],
+  "sources": {
+    "sim/edge_noise_guard_v3/run_full_parallel.py": "891e5f715d2989cbbf8bd3a5abf7b098472ed716932da1d7b0826728fd51d07c"
+  }
+}

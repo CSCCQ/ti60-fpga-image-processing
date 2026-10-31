@@ -1,0 +1,9 @@
+{
+  "received": "2026-10-24T12:03:16.858534+08:00",
+  "cold_power_cycle_without_pc_download": true,
+  "automatic_colour_image_normal": true,
+  "digit_boxes_and_labels_normal": true,
+  "digit_recognition_exit_and_reentry_normal": true,
+  "evidence": "Explicit user answers after power cycle; firmware CRC/startup also independently checked over JTAG.",
+  "live_noise_reduction_quantified": false
+}

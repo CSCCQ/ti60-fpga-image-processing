@@ -1,0 +1,13 @@
+# Generated work; retain all accepted release binaries and required ROM/library files.
+**/__pycache__/
+**/*.pyc
+**/.venv/
+**/.idea/
+**/.metadata/
+**/.DS_Store
+**/Thumbs.db
+**/build/
+Ti60F225_SC1336_HDMI_Display/outflow/
+Ti60F225_SC1336_HDMI_Display/work_*/
+*.rar
+*.zip

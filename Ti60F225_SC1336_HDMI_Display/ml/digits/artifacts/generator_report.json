@@ -1,0 +1,30 @@
+{
+  "analyzer": "C:\\Users\\admin\\Desktop\\Demo\\tinyml-main\\tools\\tinyml_generator\\bin\\tflite.exe",
+  "analyzer_sha256": "62646a1f9774ab85f871c33fb179c4102a28ae7822f85aaf6b8f1b8ca2ac6c52",
+  "model_sha256": "a3aad109daefa717ca5461e2d9a3f132e6f8a74cbf015f2ec99962f04cacb3f3",
+  "in_parallel": 8,
+  "out_parallel": 1,
+  "parameters": {
+    "CONV_DEPTHW_MODE": 1,
+    "CONV_DEPTHW_STD_OUT_CH_FIFO_A": 24,
+    "CONV_DEPTHW_STD_FILTER_FIFO_A": 18,
+    "CONV_DEPTHW_STD_CNT_DTH": 32,
+    "ADD_MODE": 0,
+    "MUL_MODE": 0,
+    "MIN_MAX_MODE": 0,
+    "FC_MODE": 1,
+    "FC_MAX_IN_NODE": 384,
+    "FC_MAX_OUT_NODE": 32,
+    "TINYML_CACHE": 1
+  },
+  "software_modes": {
+    "conv_depthw_mode": 2,
+    "conv_depthw_lite_parallel": 4,
+    "add_mode": 0,
+    "fc_mode": 0,
+    "mul_mode": 0,
+    "min_max_mode": 0,
+    "tinyml_cache": 1
+  },
+  "bytes": 22064
+}

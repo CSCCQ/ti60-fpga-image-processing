@@ -1,0 +1,60 @@
+{
+  "bit_sha256": "1f8cb74e7aab6103797cac6f5761bb08ba4dbf11d8c3b548db8d5cac7681bf87",
+  "elf_sha256": "333b82a8203cd90b33823e92b234545ca78bfebd75c8aeb1a75e5383c36e0f80",
+  "model_sha256": "a3aad109daefa717ca5461e2d9a3f132e6f8a74cbf015f2ec99962f04cacb3f3",
+  "model_bytes": 22064,
+  "display_mode_cycle": [
+    0,
+    5,
+    4,
+    6,
+    1,
+    2,
+    3
+  ],
+  "mode_names": [
+    "彩色原图",
+    "中值滤波",
+    "中值sobel",
+    "高斯滤波",
+    "高斯canny",
+    "灰度二值分屏",
+    "红边叠加"
+  ],
+  "threshold_step": 10,
+  "xlr": {
+    "used": 60716,
+    "available": 60800
+  },
+  "memory_blocks": {
+    "used": 256,
+    "available": 256
+  },
+  "dsp_blocks": {
+    "used": 38,
+    "available": 160
+  },
+  "timing": {
+    "paths": 274,
+    "min_slack_ns": 0.018,
+    "negative_paths": 0
+  },
+  "software_and_hardware_checks_passed": true,
+  "flash_written": true,
+  "flash_readback_verified": true,
+  "cold_power_cycle_verified": true,
+  "autonomous_boot_verified": true,
+  "board_accepted": true,
+  "board_acceptance_scope": "Cold startup, normal colour, digit boxes/labels and recognition exit/reentry; noise elimination is not claimed.",
+  "release_name": "Ti60 image processing and digit recognition V3",
+  "hardware_output": "release/fpga",
+  "firmware": "release/firmware/evsoc_tinyml_digits.elf",
+  "model": "ml/digits/artifacts/digits_int8.tflite",
+  "configuration": "release/fpga/Ti60_Demo.hex",
+  "flash_firmware": "release/boot/digits_flash.hex",
+  "configuration_address": 0,
+  "firmware_address": 4194304,
+  "source_cleaned_without_algorithm_change": true,
+  "cleanup_date": "2026-11-01",
+  "noise_issue_resolved": false
+}

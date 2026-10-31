@@ -1,0 +1,18 @@
+{
+  "test": "tb_gray_denoise",
+  "passed": true,
+  "negative_control": false,
+  "seconds": 17.4,
+  "sources": {
+    "src/isp/Canny_Edge.v": "a792c3352c90e843b6e07d590b979a476d3dbe653c1fa1cc9c91f8e0a26ae5b1",
+    "src/isp/Matrix_Generate_3X3.v": "451466651569ca9a45282f96d18be2d3c47b621efc8675e043d9a5853aec8e84",
+    "src/isp/VIP_Matrix_Generate_3X3_8Bit.v": "06d1f2c748270a59ab6f42915f964ccd9712eebaa17ae57e065958d472156588",
+    "src/isp/Line_Shift_RAM_8Bit.v": "ed19093fbae9a6b6caf32f16c5ab5ff892421ca5c07aa266fc9ceecd1d0d6e5a",
+    "sim/edge_noise_guard_v3/Canny_V2.v": "d4148091fd80f1ca82fd8e8427dab019cfd003144c5032da919d149604cc0f82",
+    "sim/edge_noise_guard_v3/tb_gray_denoise.v": "90ac5e5de7cf8200e1978b5760352cb08adc09e73dc0911d408b4025e19ec9f6",
+    "sim/edge_noise_guard_v3/input.hex": "3e1f0e6d54af3e67dd1636c85dfd42bdf4c1ed7da3d103176197dc6d87a1dee0",
+    "sim/edge_noise_guard_v3/expected.hex": "443d00f971658c02eca2aa473632defdb607ccbed3716726f0df1e458fcc5d67",
+    "sim/edge_noise_guard_v3/vectors.json": "59364928edaf0f809ac2f8c0e069bc81dbd5aca35130d183cc83108aa59f726f",
+    "sim/edge_noise_guard_v3/test_vectors.py": "878afe7fa9b75e2e3d4407d820e369bbe8316cc8b733840141143aff2d6dc089"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "test": "tb_shape_preserved",
+  "passed": true,
+  "negative_control": false,
+  "seconds": 25.19,
+  "sources": {
+    "src/isp/Shape_Classify.v": "2db4c7507b6f9d429d51f6e5aa10aa97f2dc7504a8b13169b9ae8b79deb37f72",
+    "src/isp/Shape_Corner_Count.v": "1650d1f1baf2eed7ee7e633449d0404fea259cd8f821d82a5fee6785c12fda5a",
+    "src/isp/Matrix_Generate_3X3.v": "451466651569ca9a45282f96d18be2d3c47b621efc8675e043d9a5853aec8e84",
+    "src/isp/Line_Shift_RAM_8Bit.v": "ed19093fbae9a6b6caf32f16c5ab5ff892421ca5c07aa266fc9ceecd1d0d6e5a",
+    "sim/edge_noise_guard_v3/Shape_V1.v": "764718c3c226045501ffe26ee78a82aae64213fea95f56bd2ed500bcf2b5ef68",
+    "sim/edge_noise_guard_v2/tb_shape_preserved.v": "5a2a88cf3c2a67d6df8c1f2cd852f862e6c509462c9fa31d35970d6dfc427827",
+    "sim/edge_noise_guard_v2/baseline/src/isp/Shape_Classify.v": "7599cc56ba78046f88af97d7bf1b0c1761e79dc628283f2fad020ae3f58631bb",
+    "sim/edge_noise_guard_v3/run_preservation.py": "564f2bf603d76bacc4cec0258b9e1d39abb9b2aa586abafee813010ffcc5bb2c"
+  },
+  "classifier_logic_identical": true
+}

@@ -1,0 +1,27 @@
+{
+  "test_sample_indices": [
+    1,
+    2,
+    3,
+    29,
+    31,
+    10,
+    12,
+    0,
+    17,
+    16
+  ],
+  "expected_labels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "max_output_difference_allowed": 4
+}

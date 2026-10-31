@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-01",
+  "firmware_rebuilt": true,
+  "compiler": "Efinity RISC-V IDE 2026.1",
+  "identical_artifacts": [
+    {
+      "rebuilt": "embedded_sw/SapphireSoc32/software/standalone/evsoc/build/evsoc_tinyml_digits.elf",
+      "accepted": "release/firmware/evsoc_tinyml_digits.elf",
+      "sha256": "333b82a8203cd90b33823e92b234545ca78bfebd75c8aeb1a75e5383c36e0f80",
+      "identical": true
+    },
+    {
+      "rebuilt": "embedded_sw/SapphireSoc32/software/standalone/evsoc/build/evsoc_tinyml_digits.bin",
+      "accepted": "release/firmware/evsoc_tinyml_digits.bin",
+      "sha256": "38bb4399465812bddb81c739a162e460baf509675de782c2c232831e349f0213",
+      "identical": true
+    },
+    {
+      "rebuilt": "build/boot/application.bin",
+      "accepted": "release/boot/application.bin",
+      "sha256": "38bb4399465812bddb81c739a162e460baf509675de782c2c232831e349f0213",
+      "identical": true
+    },
+    {
+      "rebuilt": "build/boot/digits_flash.bin",
+      "accepted": "release/boot/digits_flash.bin",
+      "sha256": "cea75ab779124da01117ab803c09a84abd9bfa009b372ae3441a16318bc3ea83",
+      "identical": true
+    },
+    {
+      "rebuilt": "build/boot/gray_flash_boot.bin",
+      "accepted": "release/boot/gray_flash_boot.bin",
+      "sha256": "b841567064dce5c6ce2ed337680c9051678a2bfa6493a486b8441d8fb91ffee1",
+      "identical": true
+    }
+  ],
+  "boot_rom_banks_identical": 4,
+  "python_scripts_parsed": 6,
+  "powershell_scripts_parsed": 9,
+  "fpga_dependency_check_passed": true,
+  "fpga_reimplemented_during_cleanup": false,
+  "accepted_hardware_sources_unchanged": true,
+  "accepted_model_unchanged": true,
+  "credential_pattern_matches": 0,
+  "board_access_during_cleanup": false,
+  "original_backup_inventory": {
+    "files_before": 47664,
+    "files_after": 47664,
+    "bytes": 9369833360,
+    "mismatches": []
+  }
+}

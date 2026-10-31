@@ -1,0 +1,423 @@
+{
+  "model_bytes": 22064,
+  "model_sha256": "a3aad109daefa717ca5461e2d9a3f132e6f8a74cbf015f2ec99962f04cacb3f3",
+  "elf_sha256": "333b82a8203cd90b33823e92b234545ca78bfebd75c8aeb1a75e5383c36e0f80",
+  "display_mode_cycle": [
+    0,
+    5,
+    4,
+    6,
+    1,
+    2,
+    3
+  ],
+  "mode_names": [
+    "彩色原图",
+    "中值滤波",
+    "中值sobel",
+    "高斯滤波",
+    "高斯canny",
+    "灰度二值分屏",
+    "红边叠加"
+  ],
+  "threshold_step": 10,
+  "preserved_bayer_mapping": "mirror=2'b00",
+  "preserved_rgb_gains": [
+    1.59765625,
+    1,
+    1.5
+  ],
+  "software_and_hardware_checks_passed": true,
+  "hardware_output": "outflow_digits_noise_guard_v3",
+  "bit_sha256": "1f8cb74e7aab6103797cac6f5761bb08ba4dbf11d8c3b548db8d5cac7681bf87",
+  "xlr": {
+    "used": 60716,
+    "available": 60800
+  },
+  "memory_blocks": {
+    "used": 256,
+    "available": 256
+  },
+  "dsp_blocks": {
+    "used": 38,
+    "available": 160
+  },
+  "timing": {
+    "paths": 274,
+    "min_slack_ns": 0.018,
+    "negative_paths": 0
+  },
+  "validation": [
+    {
+      "report": "sim/edge_noise_guard_v3/tb_gray_denoise.result.json",
+      "sha256": "39131969102ce1cbfed5f8e20464eaf32d47bbe183a7d2bac01e6010e2221c38",
+      "passed": true,
+      "executed_for_candidate": true
+    },
+    {
+      "report": "sim/edge_noise_guard_v3/tb_dual_edge.result.json",
+      "sha256": "26374a4bddb1340df2948576cd251005059ba0dc0a77b7dd2db3a472ac5d508f",
+      "passed": true,
+      "executed_for_candidate": true
+    },
+    {
+      "report": "sim/edge_noise_guard_v3/tb_edge_border.result.json",
+      "sha256": "6a6624d4b30f69c6303a92c4a74e8412466e352cecda1aa9c3b82c0208655818",
+      "passed": true,
+      "executed_for_candidate": true
+    },
+    {
+      "report": "sim/edge_noise_guard_v3/tb_temporal_guard_partial.result.json",
+      "sha256": "6696f15a50a6ff3657a8ef6a9ff3b179303c4e6ac9bcfa8a846b9444dd14726a",
+      "passed": true,
+      "executed_for_candidate": true
+    },
+    {
+      "report": "sim/edge_noise_guard_v3/tb_temporal_guard_720p.result.json",
+      "sha256": "25cc665ad0bbd37c445fccce34eceb7100f714a77d12f795a15f3ac1d457ae0a",
+      "passed": true,
+      "executed_for_candidate": true
+    },
+    {
+      "report": "sim/edge_noise_guard_v3/tb_shape_preserved.result.json",
+      "sha256": "d1db09235e83355fcce84bf90d3d0f95f1fd33c558c45c6508fbc8115ab6658a",
+      "passed": true,
+      "executed_for_candidate": true
+    },
+    {
+      "report": "sim/edge_noise_guard_v3/tb_held_modes.result.json",
+      "sha256": "d6fbe84de1c47e8828587a3ac14c0bc5ae92548c525efd288ac9af6585a44b6a",
+      "passed": true,
+      "executed_for_candidate": true
+    },
+    {
+      "report": "sim/edge_noise_guard_v3/four_modes_replay_annotations_low_threshold.result.json",
+      "sha256": "65773c8e62926bee73820946fb8ab8ad5327f8cc424c7584a27c3dd4215370fc",
+      "passed": true,
+      "executed_for_candidate": true
+    },
+    {
+      "report": "sim/edge_noise_guard_v3/quality_final.result.json",
+      "sha256": "5ddab89edc333c3d98d124d20c72af9f26ca6f4cbcc558ec6906c40507b453f7",
+      "passed": true,
+      "executed_for_candidate": true
+    },
+    {
+      "report": "sim/edge_noise_guard_v3/full_display.result.json",
+      "sha256": "0175ae38719aa46ae74dfd98513387941e77d391582ed408f282dfc42667f87b",
+      "passed": true,
+      "executed_for_candidate": true
+    },
+    {
+      "report": "sim/edge_noise_guard_v3/pair_0/tb_720p_pair_0.result.json",
+      "sha256": "8cc93b0131d7e866de01a21cc47bc7a2d2cc08b6a4dd0b9bbfea00baacade335",
+      "passed": true,
+      "executed_for_candidate": true
+    },
+    {
+      "report": "sim/edge_noise_guard_v3/pair_1/tb_720p_pair_1.result.json",
+      "sha256": "c3a2ec08b4e7316f424fbfeaa792b9b3cf4b518b310e8a6caef7c460e2491c12",
+      "passed": true,
+      "executed_for_candidate": true
+    },
+    {
+      "report": "sim/edge_noise_guard_v3/pair_2/tb_720p_pair_2.result.json",
+      "sha256": "eedac36ec417fc7f59f16580a6c1452d9c7c08297dcc2622225f9e634e8ecea9",
+      "passed": true,
+      "executed_for_candidate": true
+    },
+    {
+      "report": "sim/edge_noise_guard_v3/pair_3/tb_720p_pair_3.result.json",
+      "sha256": "db27334efdc80836dac93ba7bfba6a3f1858c35ca17813d93ccb14005ff4e3e2",
+      "passed": true,
+      "executed_for_candidate": true
+    },
+    {
+      "report": "sim/edge_noise_guard_v3/pair_4/tb_720p_pair_4.result.json",
+      "sha256": "5ea6f2dcef00376f2934cde51afc99df0a5b75c85f41a33b37d39c8e4360fd20",
+      "passed": true,
+      "executed_for_candidate": true
+    },
+    {
+      "report": "sim/edge_noise_guard_v3/pair_5/tb_720p_pair_5.result.json",
+      "sha256": "b2407de6360f2ee12c17084b73a10c935a4e67feff60eeb60904c5275165c6fe",
+      "passed": true,
+      "executed_for_candidate": true
+    },
+    {
+      "report": "sim/edge_noise_guard_v3/pair_6/tb_720p_pair_6.result.json",
+      "sha256": "c6d3cfef1567143f62006d14b4de14efaf532feb95a3607155cb739d5cf01066",
+      "passed": true,
+      "executed_for_candidate": true
+    },
+    {
+      "report": "sim/digits/tb_snapshot.result.json",
+      "sha256": "d6167a30860e7adf9fb65f6122cfa16293ca87f4378870a62bd97f208c3616db",
+      "passed": true,
+      "executed_for_candidate": false,
+      "unchanged_scope_verified": true
+    },
+    {
+      "report": "sim/digits/tb_digit_keys.result.json",
+      "sha256": "aac9a093aaa9182da90c61d6d8c26235e7e899b9e2aa726ed05a146f911c06c3",
+      "passed": true,
+      "executed_for_candidate": false,
+      "unchanged_scope_verified": true
+    },
+    {
+      "report": "sim/digits/tb_digit_bridge.result.json",
+      "sha256": "8ec2e6dc8047efc08e7608258481284e40bf4b758f46e6988e4402f257b0627a",
+      "passed": true,
+      "executed_for_candidate": false,
+      "unchanged_scope_verified": true
+    },
+    {
+      "report": "sim/digits/tb_digit_font.result.json",
+      "sha256": "a65a2b82decec4de4d9935c7c64071887b706cfbdec17ebf4a26e11750ed7bb8",
+      "passed": true,
+      "executed_for_candidate": false,
+      "unchanged_scope_verified": true
+    },
+    {
+      "report": "sim/mode_labels/mode_labels_320.result.json",
+      "sha256": "c6c79d198a2cec15bd0849dd53eb1434d127d42c22a219a407b3c0b7f6d48590",
+      "passed": true,
+      "executed_for_candidate": false,
+      "unchanged_scope_verified": true
+    },
+    {
+      "report": "sim/mode_labels/mode_labels_1280.result.json",
+      "sha256": "a54a6fa564d6ad0dad0ea7c66dd513f30c7bb774f8fd93403317509f7c90cd3b",
+      "passed": true,
+      "executed_for_candidate": false,
+      "unchanged_scope_verified": true
+    },
+    {
+      "report": "sim/replay_fps/tb_fps_counter.result.json",
+      "sha256": "92d04115e523b649667b1545864844effbd249722a93d463073abc7ae10508ba",
+      "passed": true,
+      "executed_for_candidate": false,
+      "unchanged_scope_verified": true
+    },
+    {
+      "report": "sim/replay_fps/tb_replay_epoch.result.json",
+      "sha256": "7db7808e1383330e013e6a37397bf2abdd2b5e6f032eee2304045ec3819c304d",
+      "passed": true,
+      "executed_for_candidate": false,
+      "unchanged_scope_verified": true
+    },
+    {
+      "report": "sim/filter_gray_modes/tb_threshold_osd.result.json",
+      "sha256": "176e52f136d1dc6c7c67d48f656be3bfefb2d778bb00861bad506103759808d5",
+      "passed": true,
+      "executed_for_candidate": false,
+      "unchanged_scope_verified": true
+    }
+  ],
+  "simulations": [
+    "tb_gray_denoise.result",
+    "tb_dual_edge.result",
+    "tb_edge_border.result",
+    "tb_temporal_guard_partial.result",
+    "tb_temporal_guard_720p.result",
+    "tb_shape_preserved.result",
+    "tb_held_modes.result",
+    "four_modes_replay_annotations_low_threshold.result",
+    "quality_final.result",
+    "full_display.result",
+    "tb_720p_pair_0.result",
+    "tb_720p_pair_1.result",
+    "tb_720p_pair_2.result",
+    "tb_720p_pair_3.result",
+    "tb_720p_pair_4.result",
+    "tb_720p_pair_5.result",
+    "tb_720p_pair_6.result",
+    "tb_snapshot.result",
+    "tb_digit_keys.result",
+    "tb_digit_bridge.result",
+    "tb_digit_font.result",
+    "mode_labels_320.result",
+    "mode_labels_1280.result",
+    "tb_fps_counter.result",
+    "tb_replay_epoch.result",
+    "tb_threshold_osd.result"
+  ],
+  "production_source_changes": [
+    "example_top.v",
+    "src/isp/Canny_Edge.v",
+    "src/isp/Edge_Temporal_Guard.v"
+  ],
+  "firmware_changed": false,
+  "model_changed": false,
+  "loaded": true,
+  "flash_written": true,
+  "board_accepted": true,
+  "autonomous_boot_verified": true,
+  "cold_power_cycle_verified": true,
+  "board_verification": "Full configuration host readback passed. User confirmed cold automatic startup, normal colour and digit recognition. JTAG confirmed firmware boot stage 6/error 0, matching CRC, application stage 2/error 0; CPU resumed.",
+  "change_scope": "Gaussian/Canny low thresholds 20/30/40: bounded row-local Q8.2 smoothing plus two Gaussian fractional bits until Sobel. Median/Sobel, TH>=50, raw/filter views and shape path bypass. Equivalent circular history word update; existing border protection retained.",
+  "gray_smoothing_max_difference": 12,
+  "gray_smoothing_threshold_exclusive": 50,
+  "gray_smoothing_modes": [
+    1,
+    2
+  ],
+  "temporal_immediate_magnitude": 64,
+  "additional_pixel_pipeline_clocks": 0,
+  "quality_summary": {
+    "passed": true,
+    "scope": "160 printed-glyph scenes: contrast 255/48, Gaussian defocus sigma 0/1/2/3, static and diagonal displacement 4 pixels, TH20/30/40/50/120. New denoise only Gaussian/Canny below TH50; other settings retain baseline.",
+    "regressions": [],
+    "baseline_complete": 139,
+    "candidate_complete": 139,
+    "baseline_wrong": 5,
+    "candidate_wrong": 2,
+    "median_path": "Bypass checked bit-for-bit in RTL; additional median smoothing was rejected."
+  },
+  "noise_study": {
+    "scope": "Synthetic perturbations of a previously sampled, non-atomic RGB strip. Not a measured live-camera improvement.",
+    "rows": [
+      {
+        "synthetic_sigma": 0.75,
+        "threshold": 20,
+        "methods": {
+          "v2": {
+            "edges": 53815,
+            "flicker": 20203
+          },
+          "v3": {
+            "edges": 51078,
+            "flicker": 15486
+          }
+        },
+        "flicker_reduction": 0.23348017621145378
+      },
+      {
+        "synthetic_sigma": 0.75,
+        "threshold": 30,
+        "methods": {
+          "v2": {
+            "edges": 44792,
+            "flicker": 14494
+          },
+          "v3": {
+            "edges": 42842,
+            "flicker": 11036
+          }
+        },
+        "flicker_reduction": 0.2385814819925487
+      },
+      {
+        "synthetic_sigma": 0.75,
+        "threshold": 40,
+        "methods": {
+          "v2": {
+            "edges": 36713,
+            "flicker": 9641
+          },
+          "v3": {
+            "edges": 35390,
+            "flicker": 7363
+          }
+        },
+        "flicker_reduction": 0.2362825433046365
+      },
+      {
+        "synthetic_sigma": 1.5,
+        "threshold": 20,
+        "methods": {
+          "v2": {
+            "edges": 56375,
+            "flicker": 27771
+          },
+          "v3": {
+            "edges": 52211,
+            "flicker": 22361
+          }
+        },
+        "flicker_reduction": 0.1948075330380613
+      },
+      {
+        "synthetic_sigma": 1.5,
+        "threshold": 30,
+        "methods": {
+          "v2": {
+            "edges": 46442,
+            "flicker": 19868
+          },
+          "v3": {
+            "edges": 43841,
+            "flicker": 16394
+          }
+        },
+        "flicker_reduction": 0.17485403664183607
+      },
+      {
+        "synthetic_sigma": 1.5,
+        "threshold": 40,
+        "methods": {
+          "v2": {
+            "edges": 37926,
+            "flicker": 13437
+          },
+          "v3": {
+            "edges": 36102,
+            "flicker": 11132
+          }
+        },
+        "flicker_reduction": 0.17154126665178238
+      },
+      {
+        "synthetic_sigma": 4,
+        "threshold": 20,
+        "methods": {
+          "v2": {
+            "edges": 79590,
+            "flicker": 70829
+          },
+          "v3": {
+            "edges": 64624,
+            "flicker": 47744
+          }
+        },
+        "flicker_reduction": 0.32592582134436454
+      },
+      {
+        "synthetic_sigma": 4,
+        "threshold": 30,
+        "methods": {
+          "v2": {
+            "edges": 57394,
+            "flicker": 41440
+          },
+          "v3": {
+            "edges": 51613,
+            "flicker": 32881
+          }
+        },
+        "flicker_reduction": 0.20653957528957534
+      },
+      {
+        "synthetic_sigma": 4,
+        "threshold": 40,
+        "methods": {
+          "v2": {
+            "edges": 46164,
+            "flicker": 29202
+          },
+          "v3": {
+            "edges": 42146,
+            "flicker": 23602
+          }
+        },
+        "flicker_reduction": 0.19176768714471615
+      }
+    ]
+  },
+  "limitations": "Synthetic evidence does not quantify live-camera noise reduction. Extreme blur and low contrast retain existing recognition limitations. User authorized persistence; configuration readback and cold boot are verified. Complete noise elimination is not claimed.",
+  "user_authorized_persistence": true,
+  "flash_readback_verified": true,
+  "flash_deployment_report": "sim/edge_noise_guard_v3/board/flash_deployment.json",
+  "board_acceptance_scope": "Cold startup, normal colour, digit boxes/labels and recognition exit/reentry; noise elimination is not claimed.",
+  "cold_runtime_report": "sim/edge_noise_guard_v3/board/cold_runtime.result.json"
+}

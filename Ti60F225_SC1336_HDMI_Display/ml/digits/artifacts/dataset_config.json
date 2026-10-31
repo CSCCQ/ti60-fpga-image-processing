@@ -1,0 +1,6 @@
+{
+  "train_count": 22000,
+  "validation_count": 3300,
+  "test_count": 3300,
+  "epochs": 22
+}
